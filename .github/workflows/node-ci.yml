@@ -1,4 +1,4 @@
-name: Node.js CIi
+name: Node.js CI
 on: [push]
 
 jobs:
@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-      - uses: action/checkout@v4
+      - uses: actions/checkout@v4
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
